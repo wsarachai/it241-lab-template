@@ -1,7 +1,8 @@
 # IT241 lab template
 
-## การติดตั้ง
+## เริ่ม Ubuntu
 
-- ให้นักศึกษา download ไฟล์ workdpress จากลิงค์นี้ [wordpress-6.2.zip](https://itsci.mju.ac.th/~watcharin/downloads/it241/wordpress-6.2.zip)
-- จากนั้นให้แตกไฟล์ไปไว้ใน wordpress
--
+- คำสั่่งสำหรับระบบปฏิบัติการ MacOS, Linux
+  `docker run --name ubuntu-itsci -it --rm wsarachai/ubuntu-itsci:latest`
+- คำสั่่งสำหรับระบบปฏิบัติการ Window
+  `docker run --name ubuntu-itsci -it --rm wsarachai/ubuntu-itsci:linux-amd64`
